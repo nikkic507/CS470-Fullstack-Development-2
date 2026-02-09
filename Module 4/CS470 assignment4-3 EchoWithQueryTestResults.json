@@ -1,0 +1,22 @@
+Status: Succeeded
+Test Event Name: EchoWithQuery
+
+Response:
+{
+  "statusCode": 200,
+  "body": "Hello David"
+}
+
+The area below shows the last 4 KB of the execution log.
+
+Function Logs:
+START RequestId: 8eddce83-d090-469f-b783-6774a3a1a153 Version: $LATEST
+2026-01-27T18:25:12.553Z	8eddce83-d090-469f-b783-6774a3a1a153	INFO	Received name: David
+2026-01-27T18:25:12.583Z	8eddce83-d090-469f-b783-6774a3a1a153	INFO	Event: 
+{"queryStringParameters":{"name":"David"}}
+2026-01-27T18:25:12.583Z	8eddce83-d090-469f-b783-6774a3a1a153	INFO	Response: 
+{"statusCode":200,"body":"Hello David"}
+END RequestId: 8eddce83-d090-469f-b783-6774a3a1a153
+REPORT RequestId: 8eddce83-d090-469f-b783-6774a3a1a153	Duration: 52.25 ms	Billed Duration: 198 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	Init Duration: 144.89 ms
+
+Request ID: 8eddce83-d090-469f-b783-6774a3a1a153
